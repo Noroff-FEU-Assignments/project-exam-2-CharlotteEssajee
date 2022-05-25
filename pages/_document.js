@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
         return (
             <Html lang="en">
                 <Head>
-                    <link rel="icon" href="/public/images/favicon.png" />
+                    <link rel="icon" href="/images/favicon.png" />
                     <link
                         rel="stylesheet"
                         href="https://use.typekit.net/haa2khx.css"

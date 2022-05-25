@@ -1,7 +1,10 @@
+import { SearchIcon } from "@components/icons";
 import { styled } from "goober";
 import Link from "next/link";
+import actions from "@context/actions";
 
 export default function Nav() {
+    const { setSearchModalOpen } = actions;
     return (
         <>
             <NavContainer>
@@ -14,6 +17,13 @@ export default function Nav() {
                 <Link href="/contact" passHref>
                     <a>Contact</a>
                 </Link>
+                <div style={{cursor: "pointer"}}>
+                    <SearchIcon
+                        size="25px"
+                        color="#000"
+                        onClick={() => setSearchModalOpen(true)}
+                    />
+                </div>
             </NavContainer>
         </>
     );

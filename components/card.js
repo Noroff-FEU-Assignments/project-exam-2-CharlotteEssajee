@@ -1,10 +1,12 @@
 import { styled } from "goober";
 import Image from "next/image";
 import { LocationIcon, StarIcon } from "./icons";
+import React from "react";
+import Link from "next/link";
 
 export default function Card({ place }) {
     return (
-        <>
+        <React.Fragment key={place.title}>
             <Container>
                 <Image
                     src={place.featuredImage.node.sourceUrl}
@@ -38,17 +40,24 @@ export default function Card({ place }) {
                         {place.placesInfo.location}
                     </span>
                 </div>
+                <Link href={`/places/${place.slug}`} passHref>
+                    <a className="cardLink" aria-label={place.title}></a>
+                </Link>
             </Container>
-        </>
+        </React.Fragment>
     );
 }
 
 const Container = styled("div")`
     width: 100%;
-    height: 500px;
+    height: 450px;
     position: relative;
     overflow: hidden;
     border-radius: var(--border-radius);
+
+    &:hover {
+        box-shadow: var(--shadow);
+    }
 
     .fixed {
         position: absolute;
@@ -59,8 +68,8 @@ const Container = styled("div")`
         flex-direction: column;
         padding: 20px;
         color: #fff;
-        gap: 30px;
-        background-color: rgba(0, 0, 0, 0.75);
+        gap: 20px;
+        background-color: rgba(0, 0, 0, 0.6);
 
         * {
             line-height: 1;
@@ -71,5 +80,17 @@ const Container = styled("div")`
             display: flex;
             justify-content: space-between;
         }
+    }
+
+    .cardLink {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        opacity: 0;
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+        transition: 0.3s; 
     }
 `;

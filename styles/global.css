@@ -1,6 +1,20 @@
+@font-face {
+    font-family: "Bely Display";
+    src: url("/fonts/bely-display/Bely-Display-Regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
 html {
     font-family: "Poppins", sans-serif;
     color: #4e4e4e;
+}
+
+@media (min-width: 768px) {
+    body.modal-open {
+        overflow: hidden;
+    }
 }
 
 a {
@@ -10,6 +24,13 @@ a {
 h1 {
     font-size: 55px;
     font-family: "Bely Display";
+}
+
+h2 {
+    font-family: "Bely Display";
+    font-size: 30px;
+    color: var(--main-brand-color);
+    margin: var(--margin-medium) 0;
 }
 
 h3 {
@@ -30,17 +51,21 @@ h3 {
     /*------ MARGINS*/
     --margin-small: 1rem;
     --margin-medium: 1.5rem;
-    --margin-large: 3rem;
+    --margin-large: 5rem;
 
     /*------ STYLES*/
     --border-radius: 0px 20px 20px 20px;
-    --hover-shadow: 0 0 20pt 0.5pt #d3d3d3;
-    --focus-shadow: 0 0 30pt 2pt #d3d3d3;
+    --border-radius-smaller: 0px 10px 10px 10px;
+    --shadow: 0 0 20pt 0.5pt #d3d3d3;
     --icon-size: 30px;
 }
 
 @media (max-width: 768px) {
     .hide-mobile {
         display: none;
+    }
+
+    h2 {
+        font-size: 20px;
     }
 }
