@@ -2,11 +2,9 @@
 
 ![image](https://ce.accelr.dev/wp-content/uploads/2022/05/Web-1920-–-1.png)
 
-A simple overview of the use/purpose of the project.
+A local tourism agency in Bergen is launching a new website called ‘Holidaze’ for visitors to the area to be able to find hotels, B&Bs and guesthouses, and for the accommodation owners to receive enquiries.
 
 ## Description
-
-A local tourism agency in Bergen is launching a new website called ‘Holidaze’ for visitors to the area to be able to find hotels, B&Bs and guesthouses, and for the accommodation owners to receive enquiries.
 
 The project required me to create a visitor side of the website where users can search accommodation and make enquiries, as well as the administration side where properties can be added and enquiries managed.
 
@@ -64,6 +62,16 @@ Follow instrucions in terminal or go to:
 
 ```bash
 http://localhost:3000/
+```
+
+To access admin section go to: https://holidaze-liart.vercel.app/admin
+
+```bash
+username: noroff
+```
+
+```bash
+password: Admin123!321
 ```
 
 ## Contributing
