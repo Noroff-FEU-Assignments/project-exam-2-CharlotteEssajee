@@ -3,6 +3,7 @@
 ![image](https://ce.accelr.dev/wp-content/uploads/2022/05/Web-1920-–-1.png)
 
 A local tourism agency in Bergen is launching a new website called ‘Holidaze’ for visitors to the area to be able to find hotels, B&Bs and guesthouses, and for the accommodation owners to receive enquiries.
+[View live site](https://holidaze-liart.vercel.app/)
 
 ## Description
 
@@ -62,7 +63,7 @@ Follow instrucions in terminal or go to:
 http://localhost:3000/
 ```
 
-To access admin section go to: https://holidaze-liart.vercel.app/admin
+To access admin section go to: http://localhost:3000/admin
 
 ```bash
 username: noroff
