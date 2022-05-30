@@ -26,8 +26,6 @@ I created an API to store the data for the establishments, enquiries and contact
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
 - [Next.js](https://nextjs.org/)
 - [Goober](https://goober.js.org/)
 - [WordPress](https://wordpress.com/)
@@ -82,9 +80,9 @@ Make sure to open a pull request so code can be reviewed.
 
 Reach out to me!
 
-[My Instagram page](www.instagram.com/essajee)
+[My Instagram page](https://instagram.com/essajee)
 
-[My LinkedIn page](www.linkedin.com/in/charlotte-essajee-67aa39226)
+[My LinkedIn page](https://linkedin.com/in/charlotte-essajee-67aa39226)
 
 ## License
 
