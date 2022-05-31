@@ -4,7 +4,10 @@
 
 A local tourism agency in Bergen is launching a new website called ‘Holidaze’ for visitors to the area to be able to find hotels, B&Bs and guesthouses, and for the accommodation owners to receive enquiries.
 
-[View live site](https://holidaze-liart.vercel.app/)
+[View live site](https://holidaze-liart.vercel.app/)</br>
+[Click here](https://holidaze-liart.vercel.app/admin) to go to admin section. <br/>
+Username: noroff<br/>
+Password: Admin123!321
 
 ## Description
 
