@@ -1,6 +1,7 @@
-# Holidaze
-
-![image](https://ce.accelr.dev/wp-content/uploads/2022/05/Web-1920-–-1.png)
+<h1 align="center"> Holidaze </h1>
+<p align="center">
+  <img src ="https://ce.accelr.dev/wp-content/uploads/2022/05/Web-1920-–-1.png" width="700px"/>
+</p>
 
 A local tourism agency in Bergen is launching a new website called ‘Holidaze’ for visitors to the area to be able to find hotels, B&Bs and guesthouses, and for the accommodation owners to receive enquiries.
 
