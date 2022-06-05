@@ -43,7 +43,7 @@ I created an API to store the data for the establishments, enquiries and contact
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:CharlotteEssajee/Noroff-FEU-Assignments/project-exam-2-CharlotteEssajee.git
+git clone git@github.com:Noroff-FEU-Assignments/project-exam-2-CharlotteEssajee.git
 ```
 
 2. Install the dependencies:
